@@ -42,7 +42,7 @@ public class TwittService {
 
         hashtags.add("isapre");
         hashtags.add("consalud");
-        hashtags.add("salud");
+        hashtags.add("fonasa");
 
         this.twitterKafkaProducer.run(this.twittRepository, this.searchRepository, hashtags);
     }
